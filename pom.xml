@@ -53,6 +53,7 @@
             <artifactId>spring-boot-starter-hateoas</artifactId>
             <scope>hateoas</scope>
         </dependency>
+
     </dependencies>
 
     <build>
