@@ -54,6 +54,7 @@
             <scope>hateoas</scope>
         </dependency>
 
+
     </dependencies>
 
     <build>
