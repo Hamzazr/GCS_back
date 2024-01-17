@@ -14,11 +14,11 @@ public class GroupCourse {
 	 private String name;
 
 
-	@ManyToOne(cascade = CascadeType.REMOVE)
+	@ManyToOne
 	@JoinColumn(name="teacherId", nullable=false)
 	private Teacher teacher;
 
-	@ManyToOne(cascade = CascadeType.REMOVE)
+	@ManyToOne
 	@JoinColumn(name="courseId", nullable=false)
 	private Course course;
 
